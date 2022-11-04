@@ -22,4 +22,5 @@ fn main() {
     print!("a is {0}, a still is {0}, b is still{1}", a,b);
     // 常量定义
     // const c:i32 = 123;
+    println!("this is the main module");
 }
