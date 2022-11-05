@@ -1,3 +1,8 @@
+// 导入oop文件
+// 使用其中的classname
+mod oop;
+use oop::ClassName;
+
 fn main() {
     println!("Hello, world!");
     // 不声明mut是不可变变量
@@ -23,4 +28,7 @@ fn main() {
     // 常量定义
     // const c:i32 = 123;
     println!("this is the main module");
+
+    let obj = ClassName::new(12);
+    obj.public_method();
 }
